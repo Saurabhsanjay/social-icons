@@ -1,0 +1,48 @@
+.social_icon {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+  padding: 10px;
+ box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.icon:hover {
+ 
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.25) 0px 4px 8px 2px;
+}
+
+.icon:nth-child(1):hover svg {
+  color: #1877f2;
+}
+
+.icon:nth-child(2):hover svg {
+  color: #fb7c05;
+}
+
+.icon:nth-child(3):hover svg {
+  color: #1877f2;
+}
+
+.icon:nth-child(4):hover svg {
+  color: #0a66c2;
+}
+
+.icon:nth-child(5):hover svg {
+  color: #f86008;
+}
+
+.icon svg {
+  color: #333;
+  width: 25px;
+  height: 25px;
+}
